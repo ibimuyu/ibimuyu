@@ -32,15 +32,15 @@ public class LauncherBackupAgentHelper extends BackupAgentHelper {
      * @param context application context
      */
     public static void dataChanged(Context context) {
-        if (sBackupManager == null) {
-            sBackupManager = new BackupManager(context);
-        }
-        sBackupManager.dataChanged();
+//        if (sBackupManager == null) {
+//            sBackupManager = new BackupManager(context);
+//        }
+//        sBackupManager.dataChanged();
     }
 
 
     @Override
     public void onCreate() {
-        addHelper(LauncherBackupHelper.LAUNCHER_PREFIX, new LauncherBackupHelper(this));
+//        addHelper(LauncherBackupHelper.LAUNCHER_PREFIX, new LauncherBackupHelper(this));
     }
 }
