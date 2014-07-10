@@ -25,6 +25,8 @@ public class ResourcesProxy {
 		}
 		return null;
 	}
+
+//
 	
 //	public static Object getCompatibilityInfo(Resources resources) {
 //		try {
