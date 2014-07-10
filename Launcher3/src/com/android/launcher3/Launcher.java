@@ -98,6 +98,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.launcher3.DropTarget.DragObject;
+import com.ibimuyu.android.theme.ThemeActivity;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -117,7 +118,7 @@ import java.util.List;
 /**
  * Default launcher application.
  */
-public class Launcher extends Activity
+public class Launcher extends ThemeActivity
         implements View.OnClickListener, OnLongClickListener, LauncherModel.Callbacks,
                    View.OnTouchListener {
     static final String TAG = "Launcher";

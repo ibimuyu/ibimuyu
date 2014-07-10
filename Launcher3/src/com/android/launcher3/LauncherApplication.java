@@ -16,9 +16,11 @@
 
 package com.android.launcher3;
 
+import com.ibimuyu.android.theme.ThemeApplication;
+
 import android.app.Application;
 
-public class LauncherApplication extends Application {
+public class LauncherApplication extends ThemeApplication {
     @Override
     public void onCreate() {
         super.onCreate();
